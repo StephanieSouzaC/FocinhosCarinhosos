@@ -1,6 +1,5 @@
 import express from "express";
 import conectaDatabase from "./config/dbConect.js";
-import Animais from "./routes/animaisRoutes.js";
 import routes from "./routes/index.js";
 
 const conexao = await conectaDatabase();

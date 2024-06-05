@@ -13,4 +13,5 @@ routes.put('/Funcionarios/cpf/:cpf', funcionarioController.alterarCadastroFuncio
 routes.put('/Funcionarios/:id', funcionarioController.alterarCadastroFuncionarioComId);
 routes.delete('/Funcionarios/:id', funcionarioController.deletarCadastroFuncionarioId);
 
+
 export default routes;
