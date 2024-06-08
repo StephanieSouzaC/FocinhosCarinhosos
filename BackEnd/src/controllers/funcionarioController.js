@@ -1,7 +1,6 @@
 import funcionario from "../models/Funcionario.js";
 import validarCPF from "../services/validadorCpf.js";
 
-
 class funcionarioController {
 
     static async getFuncionario(req, res){
@@ -111,7 +110,6 @@ class funcionarioController {
         };
     };
 
-
     static async deletarCadastroFuncionarioId(req, res) {
         try {
             const id = req.params.id;
@@ -142,7 +140,6 @@ class funcionarioController {
             res.status(500).json({ message: `${error.message} - Falha na busca.` });
         };
     };
-
 };
 
 export default funcionarioController;
