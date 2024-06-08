@@ -35,23 +35,8 @@ class funcionarioController {
             }
         } catch (error) {
             res.status(500).json({ message: `${error.message} - Falha na busca.` });
-        }
-    }
-
-    // static async getFuncionarioByCpf(req, res) {
-    //     try {
-    //         const cpf = req.params.cpf;
-    //         const funcionarioEncontradoCpf = await funcionario.findOne({ cpf: cpf });
-
-    //         if (funcionarioEncontradoCpf) {
-    //             res.status(200).json(funcionarioEncontradoCpf);
-    //         } else {
-    //             res.status(404).json({ message: 'Funcionário não encontrado' });
-    //         };
-    //     } catch (error) {
-    //         res.status(500).json({ message: `${error.message} - Falha na busca.` });
-    //     };
-    // };
+        };
+    };
 
     static async getFuncionarioByCpf(req, res) {
         try {
@@ -71,17 +56,8 @@ class funcionarioController {
             }
         } catch (error) {
             res.status(500).json({ message: `${error.message} - Falha na busca.` });
-        }
-    }
-
-    // static async cadastrarFuncionario (req, res){
-    //     try {
-    //         const novoFuncionario = await funcionario.create(req.body);
-    //         res.status(201).json({message: "Funcionário cadastrado com sucesso", funcionario: novoFuncionario}); 
-    //     } catch (error) {
-    //         res.status(500).json({message: `${error.message} - falha ao cadastrar o funcionário.`});
-    //     };
-    // };
+        };
+    };
 
     static async cadastrarFuncionario(req, res) {
         try {
@@ -93,10 +69,10 @@ class funcionarioController {
             res.status(201).json({ message: "Funcionário cadastrado com sucesso", funcionario: novoFuncionario }); 
         } catch (error) {
             res.status(500).json({ message: `${error.message} - falha ao cadastrar o funcionário.` });
-        }
-    }
+        };
+    };
 
-    static async alterarCadastroFuncionárioComNome(req, res){
+    static async alterarCadastroFuncionarioComNome(req, res){
         try{
             const nome = req.params.nome;
             const funcionarioEncontradoNome = await funcionario.findOne({ nome: nome });
@@ -106,17 +82,6 @@ class funcionarioController {
             res.status(500).json({message:`${error.message} - Falha ao alterar o cadastro.`});
         };
     };
-
-    // static async alterarCadastroFuncionárioComCpf(req, res){
-    //     try{
-    //         const cpf = req.params.cpf;
-    //         const funcionarioEncontradoCpf = await funcionario.findOne({ cpf: cpf });
-    //         await funcionario.findOneAndUpdate(funcionarioEncontradoCpf, req.body);
-    //         res.status(200).json({message:"Cadastro do funcionário alterado com sucesso."});
-    //     } catch(error){
-    //         res.status(500).json({message:`${error.message} - Falha ao alterar o cadastro.`});
-    //     };
-    // };
   
     static async alterarCadastroFuncionarioComCpf(req, res) {
         try {
@@ -133,8 +98,8 @@ class funcionarioController {
             res.status(200).json({ message: "Cadastro do funcionário alterado com sucesso." });
         } catch (error) {
             res.status(500).json({ message: `${error.message} - Falha ao alterar o cadastro.` });
-        }
-    }
+        };
+    };
 
     static async alterarCadastroFuncionarioComId(req, res){
         try{
@@ -164,7 +129,7 @@ class funcionarioController {
             
             if (!cpfValido) {
                 return res.status(400).json({ message: "CPF inválido." });
-            }
+            };
     
             const funcionarioEncontrado = await funcionario.findOne({ nome: nome, cpf: cpf });
     
@@ -175,8 +140,8 @@ class funcionarioController {
             }
         } catch (error) {
             res.status(500).json({ message: `${error.message} - Falha na busca.` });
-        }
-    }
+        };
+    };
 
 };
 

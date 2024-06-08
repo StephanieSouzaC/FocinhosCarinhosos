@@ -91,8 +91,8 @@ class animalController {
             res.status(500).json({message: `${error.message} - falha na exclusão.`});
         };
     };
-
-    // falta rota para pesquisar nome e tipo juntos.
 };
+
+//get by name e tipo
 
 export default animalController;

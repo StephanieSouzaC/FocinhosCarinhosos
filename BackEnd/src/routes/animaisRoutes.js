@@ -11,6 +11,5 @@ routes.post('/Animais', animalController.cadastrarAnimal);
 routes.put('/Animais/nome/:nome', animalController.alterarCadastroAnimalComNome);
 routes.put('/Animais/:id', animalController.alterarCadastroAnimalComId);
 routes.delete('/Animais/:id', animalController.deletarCadastroAnimalId);
-// routes.get('/Animais', animalController.getAnimaisByNameAndType);
 
 export default routes;
