@@ -136,17 +136,15 @@ npm start
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [React](https://legacy.reactjs.org/docs/getting-started.html)
 - [Express](https://expressjs.com/pt-br/)
+- [MongoDb](https://www.mongodb.com/docs/)
 - [Node.js](https://nodejs.org/docs/latest/api/)
-- [Axios](https://axios-http.com/ptbr/docs/intro)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Date-Fns](https://date-fns.org/v3.6.0/docs/Getting-Started)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Cors](https://www.npmjs.com/package/cors)
 
 ## Desenvolvedores :octocat:
 
-[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
+[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Desenvolvedora BackEnd e Designer</p><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
+[<img src="https://github.com/AmarilisTomaz.png" width=200><br><p>Desenvolvedora FrontEnd e Designer</p><p>Amarilis Tomaz</p>](https://www.linkedin.com/in/amarilis-vieira-93a56626b/)
