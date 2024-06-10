@@ -125,14 +125,6 @@ npm start
 ```
 
 ## Layout da Aplicação :computer:
-> Banner
-<img src="https://github.com/StephanieSouzaC/calculadora-Petshop/assets/117867662/d69e643f-f20f-4401-8464-ffe50b021e04" alt="banner"/>
-
-> Formulário
-<img src="https://github.com/StephanieSouzaC/calculadora-Petshop/assets/117867662/d7a23a0e-55c8-4900-a696-07c27a2c7e3d" alt="formulario"/>
-
-> Resultado
-<img src="https://github.com/StephanieSouzaC/calculadora-Petshop/assets/117867662/ac2144b6-eba1-4f70-8304-912e4ea0f409" alt="resultado"/>
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
@@ -146,5 +138,6 @@ npm start
 
 ## Desenvolvedores :octocat:
 
-[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Desenvolvedora BackEnd e Designer</p><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
 [<img src="https://github.com/AmarilisTomaz.png" width=200><br><p>Desenvolvedora FrontEnd e Designer</p><p>Amarilis Tomaz</p>](https://www.linkedin.com/in/amarilis-vieira-93a56626b/)
+
+[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Desenvolvedora BackEnd e Designer</p><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
