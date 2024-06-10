@@ -78,7 +78,7 @@ npm start
 > Observação: para o projeto BackEnd, garanta que o Node.js esteja instalado corretamente em sua máquina. Para instalar o Node.js acesse [Node.js](https://nodejs.org/en/download/prebuilt-installer)
 
 
-> Para conectar ao banco de dados MongoDb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.
+<p> Para conectar ao banco de dados MongoDb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.</p>
 <p>No documento .env, deve acrescentar a seguinte informação: </p>
 !!!
 
