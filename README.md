@@ -10,11 +10,11 @@
   <img src="http://img.shields.io/static/v1?label=HTML&message=5&color=red&style=for-the-badge&logo=HTML5"/>
   <img src="http://img.shields.io/static/v1?label=CSS&message=3&color=blue&style=for-the-badge&logo=CSS3"/>
   <img src="http://img.shields.io/static/v1?label=MongoDb&message=DB&color=green&style=for-the-badge&logo=MongoDb"/>
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=Desenvolvimento&color=yellow&style=for-the-badge"/>
   
 </p>
 
-> Status do Projeto: ✔️ Finalizado.
+> Status do Projeto: 🚧 Em Desenvolvimento.
 
 ### Tópicos 
 
