@@ -55,7 +55,7 @@ Projeto FullStack para uma ong fictícia Focinhos Carinhososde uma calculadora v
 ## Como rodar a Aplicação Web :computer:
 > Para instalar as dependências e tecnologias do projeto FrontEnd digite em seu terminal:
 ```sh
-cd .\desafio-dti\
+cd .\FrontEnd\
 ```
 ```sh
 npm install
@@ -66,7 +66,7 @@ npm start
 ```
 > Para instalar as dependências e tecnologias do projeto BackEnd digite em seu terminal:
 ```sh
-cd .\desafio-dti-BackEnd\
+cd .\BackEnd\
 ```
 ```sh
 npm install
@@ -76,6 +76,12 @@ npm install
 npm start
 ```
 > Observação: para o projeto BackEnd, garanta que o Node.js esteja instalado corretamente em sua máquina. Para instalar o Node.js acesse [Node.js](https://nodejs.org/en/download/prebuilt-installer)
+
+
+> Para conectar ao banco de dados MongoDb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.
+<p>No documento .env, deve acrescentar a seguinte informação: </p>
+!!!
+
 
 <p>Caso ocorra algum erro as tecnologias podem ser instaladas manualmente conforme instruções abaixo:</p>
 
