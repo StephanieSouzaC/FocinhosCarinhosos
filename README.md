@@ -77,12 +77,16 @@ npm start
 ```
 > Observação: para o projeto BackEnd, garanta que o Node.js esteja instalado corretamente em sua máquina. Para instalar o Node.js acesse [Node.js](https://nodejs.org/en/download/prebuilt-installer)
 
-
-<p> Para conectar ao banco de dados MongoDb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.</p>
+<p> Para conectar ao banco de dados Mongodb crie um documento com o nome ".env" dentro da pasta BackEnd, no mesmo nível da pasta SRC, esse documento já está sendo chamado no arquivo dbConect.js que está localizado na pasta Config, dentro de SRC.</p>
+<img src="https://github.com/StephanieSouzaC/FocinhosCarinhosos/assets/117867662/fc944baf-e20f-46f8-9116-269313c1283e">
 <p>No documento .env, deve acrescentar a seguinte informação: </p>
-!!!
 
+```
+DB_CONNECTION_STRING = mongodb+srv://NOMEADM:SENHA@cluster0.hyodblz.mongodb.net/FocinhosCarinhosos?retryWrites=true&w=majority&appName=Cluster0
+```
+<p> :bangbang: O NOMEADM e SENHA devem ser alterados de acordo com as credenciais enviadas pelo forms de entrega da atividade. Os ":" deve ser mantido ao ser inserido o usuario e senha informados.</p>
 
+------
 <p>Caso ocorra algum erro as tecnologias podem ser instaladas manualmente conforme instruções abaixo:</p>
 
 > Para o projeto BackEnd, instale em seu terminal as tecnologias abaixo:
@@ -111,18 +115,6 @@ npm install axios
 npm start
 ```
 > Garanta que no seu Package.Json tenha o script CLI "start": "nodemon server.js":
-<img src="https://github.com/StephanieSouzaC/calculadora-Petshop/assets/117867662/fe1f1a5f-2b18-441d-bb50-38fad3d0fb7f"/>
-
-> Para iniciar a aplicação FrontEnd, digite em outro terminal:
-```sh
-npx create-react-app desafio-dti
-```
-```sh
-cd desafio-dti
-```
-```sh
-npm start
-```
 
 ## Layout da Aplicação :computer:
 
