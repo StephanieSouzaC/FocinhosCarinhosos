@@ -118,7 +118,7 @@ npm start
 ```
 > Garanta que no seu Package.Json tenha o script CLI "start": "nodemon server.js":
 
-## Documentação :Books:
+## Documentação :books:
 > Acesse a documentação do projeto: [Documentação](https://github.com/user-attachments/files/15829371/Personas.e.caso.de.uso.pdf)
 
 ## Layout da Aplicação :computer:
