@@ -24,7 +24,7 @@
 
 :small_blue_diamond: [Como rodar a Aplicação Web](#como-rodar-a-aplicação-web-computer)
 
-:small_blue_diamond: [Documentação](#documentação-books) 
+:small_blue_diamond: [Documentação](#documentação-book) 
 
 :small_blue_diamond: [Layout da Aplicação](#layout-da-aplicação-computer)
 
@@ -119,7 +119,7 @@ npm start
 > Garanta que no seu Package.Json tenha o script CLI "start": "nodemon server.js":
 
 ## Documentação :Book:
-
+> Acesse a documentação do projeto: [Documentação](https://github.com/user-attachments/files/15829371/Personas.e.caso.de.uso.pdf)
 
 ## Layout da Aplicação :computer:
 
