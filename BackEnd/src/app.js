@@ -15,6 +15,5 @@ conexao.once("open", () => {
 
 const app = express();
 routes(app);
-app.use('/user', login);
 
 export default app;
