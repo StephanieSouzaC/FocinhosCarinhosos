@@ -135,6 +135,6 @@ npm start
 
 ## Desenvolvedores :octocat:
 
-[<img src="https://github.com/AmarilisTomaz.png" width=200><br><p>Desenvolvedora FrontEnd e Designer</p><p>Amarilis Tomaz</p>](https://www.linkedin.com/in/amarilis-vieira-93a56626b/)
+[<img src="https://github.com/JuanHenrique04.png" width=200><br><p>Desenvolvedor Full Stack</p><p>Juan Henrique</p>](https://www.linkedin.com/in/juan-henrique-04b072235/)
 
-[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Desenvolvedora BackEnd e Designer</p><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
+[<img src="https://github.com/StephanieSouzaC.png" width=200><br><p>Desenvolvedora Full Stack e Designer</p><p>Stephanie Souza</p>](https://www.linkedin.com/in/stephanie-souza-83a18b239/)
